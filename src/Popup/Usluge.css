@@ -1,0 +1,46 @@
+.usluge{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 30px;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.labelusluge{
+    padding: 20px;
+}
+
+.uslugeprice{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.kuponinput {
+    animation: flicker 1.5s infinite alternate;
+    color: rgb(39, 10, 10);
+  }
+  @keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px rgb(0, 140, 233),
+        0 0 11px rgb(241, 9, 9),
+        0 0 19px rgb(226, 145, 145),
+        0 0 40px rgb(0, 132, 255),
+        0 0 80px rgb(0, 132, 255),
+        0 0 90px rgb(0, 132, 255),
+        0 0 100px rgb(0, 132, 255),
+        0 0 150px rgb(0, 132, 255);
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  

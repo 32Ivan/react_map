@@ -1,0 +1,43 @@
+.modal {
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: rgb(238, 238, 234);
+    padding: 3rem;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    z-index: 10;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin: 50px;
+    top: 10%;
+  }
+
+  
+input {
+    margin: .4rem;
+}
+
+.dropdown-content{
+ display: inline-flex;
+    
+ list-style: inside;
+}
+
+.dropdown-item{
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    justify-content: flex-start;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
